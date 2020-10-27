@@ -1,0 +1,30 @@
+{
+  "name": "account-team-jira-demo",
+  "version": "1.0.0",
+  "description": "This is my presentation template using pandoc to translate a markdown file called `slides.md` to HTML. The presentation is styled using CSS contained in the `slides.css` file. The `make` command is used to easily create a self-contained HTML presentation, which means a single HTML file is enough to start the presentation from any machine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mdx-deck deck.mdx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juiceqa/account-team-jira-demo.git"
+  },
+  "keywords": [],
+  "author": "Garrett Glick <gglick@juicepharma.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juiceqa/account-team-jira-demo/issues"
+  },
+  "homepage": "https://github.com/juiceqa/account-team-jira-demo#readme",
+  "devDependencies": {
+    "mdx-deck": "^4.1.1"
+  },
+  "dependencies": {
+    "rehype-parse": "^7.0.1",
+    "rehype-stringify": "^8.0.0",
+    "to-vfile": "^6.1.0",
+    "unified": "^9.2.0"
+  }
+}

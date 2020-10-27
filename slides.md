@@ -1,12 +1,12 @@
-% Title of the presentation
+%  JIRA Board Onboarding w/Account Team
 % Daniel Rotter
 % Mar 28, 2020
 
-# Slide 1
+# Project Board View
 
-## Slide 2
+## Issue View
 
-### Content on Slide 2
+### Client Fields vs JUICE Staff Admin Fields
 
 ```graphviz
 digraph G {
